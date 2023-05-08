@@ -704,6 +704,7 @@ body{
 .work-right-side{
     flex: 1;
 }
+
 /* -----EDUCATION AND WORK END---- */
 
 @media(max-width:1200px){
@@ -726,9 +727,6 @@ body{
         font-size: 20px;
         line-height: 25px;
     }
-    .pro-img-left-side {
-        display: none;
-      }
     .education-books{
         padding-top: 40px;
         padding-bottom: 30px;
@@ -753,7 +751,7 @@ body{
     
     }
 }
-@media(max-width:768px){
+@media(max-width:767px){
     .product-designer{
         padding: 50px 30px 50px;
     }
@@ -765,12 +763,10 @@ body{
     }
     .product-text__left-side h2{
         font-size: 40px;
+        padding-bottom: 20px;
     }
     .product-image{
         padding-top: 50px;
-    }
-    .pro-img-center {
-        display: none;
     }
     
     .education{
@@ -989,8 +985,11 @@ body{
         font-size: 38px;
         font-weight: 700;
         padding-bottom: 70px;
-        /* line-height: 30px; */
     }
+    .faq-left{
+        padding-right: 12px;
+    }
+    
 }
 /* FAQ SECTION END */
 
